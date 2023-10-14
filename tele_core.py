@@ -1,0 +1,6 @@
+class Tele_api:
+    def __init__(self):
+        ...
+
+    def send_message(self):
+        ...
