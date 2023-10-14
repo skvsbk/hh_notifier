@@ -78,7 +78,7 @@ def send_to_telegram(message):
 
 def main():
     vacancy = get_vacancies()
-    for item in vacancy[:3]:
+    for item in vacancy:
         message = serializer(item)
         send_to_telegram(message)
 
